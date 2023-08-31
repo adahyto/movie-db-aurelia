@@ -1,0 +1,6 @@
+<template>
+  <require from="../components/spinner.html"></require>
+  <require from="../components/movie-list"></require>
+  <movie-list movies.bind="results.results" title.bind="header"></movie-list>
+  <spinner if.bind="isLoading"></spinner> 
+</template>
